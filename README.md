@@ -10,12 +10,6 @@ Currently, I'm expanding my skills toward **Full-Stack and Backend Development**
 
 I enjoy turning ideas into functional applications and continuously improving the architecture, usability and technical quality of my projects.
 
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CalixtoIsaac/CalixtoIsaac/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CalixtoIsaac/CalixtoIsaac/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/CalixtoIsaac/CalixtoIsaac/pacman-output/pacman-contribution-graph.svg?game=pacman">
-</picture>
-
 ![CalixtoIsaac's Streak](https://github-readme-streak-stats.herokuapp.com/?user=CalixtoIsaac&theme=vue-dark&hide_border=true)
 
 
