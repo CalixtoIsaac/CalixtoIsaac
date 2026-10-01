@@ -85,6 +85,51 @@ I enjoy turning ideas into functional applications and continuously improving th
 
 ---
 
+## 🧠 Areas of Interest
+
+* Backend Development
+* Full-Stack Development
+* Database Design
+* Software Architecture
+* Object-Oriented Programming
+* Data Structures & Algorithms
+* REST APIs
+* Distributed Applications
+* Data Analysis
+* Cloud Technologies
+
+---
+
+## 🎯 Current Focus
+
+I'm currently focused on moving from local and desktop applications toward more complete **web and cloud-based systems**.
+
+My current learning path includes:
+
+```text
+Java / Python
+      ↓
+Data Structures & Algorithms
+      ↓
+SQL & Database Design
+      ↓
+Backend Development
+      ↓
+REST APIs
+      ↓
+Spring Boot / Node.js
+      ↓
+React
+      ↓
+Docker & Linux
+      ↓
+Cloud / AWS
+```
+
+The goal is to progressively build applications with stronger architecture, scalability, security and deployment practices.
+
+---
+
 ## 🛠️ Featured Projects
 
 ### 🗄️ My Best DataBase
@@ -204,57 +249,6 @@ The project includes:
 
 ---
 
-## 🧠 Areas of Interest
-
-* Backend Development
-* Full-Stack Development
-* Database Design
-* Software Architecture
-* Object-Oriented Programming
-* Data Structures & Algorithms
-* REST APIs
-* Distributed Applications
-* Data Analysis
-* Cloud Technologies
-
----
-
-## 📊 GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CalixtoIsaac&theme=default&show_icons=true&hide_border=true&layout=compact" alt="CalixtoIsaac's GitHub Stats" />
-
----
-
-## 🎯 Current Focus
-
-I'm currently focused on moving from local and desktop applications toward more complete **web and cloud-based systems**.
-
-My current learning path includes:
-
-```text
-Java / Python
-      ↓
-Data Structures & Algorithms
-      ↓
-SQL & Database Design
-      ↓
-Backend Development
-      ↓
-REST APIs
-      ↓
-Spring Boot / Node.js
-      ↓
-React
-      ↓
-Docker & Linux
-      ↓
-Cloud / AWS
-```
-
-The goal is to progressively build applications with stronger architecture, scalability, security and deployment practices.
-
----
-
 ## 📫 Let's Connect
 
 I'm always interested in learning, building new projects and connecting with other developers.
@@ -267,4 +261,4 @@ I'm always interested in learning, building new projects and connecting with oth
 
 ---
 
-### 💻 Always learning. Always building.
+### 💻 If you can imagine it, you can program it.
