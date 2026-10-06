@@ -1,6 +1,3 @@
-<div align="center"> <h1>Hi, I'm Calixto Isaac</h1>
-</div>
-
 <!-- INICIO DEL ENCABEZADO -->
 <p align="center">
   <img src="./isaac_github.svg" width="100%" alt="Marco Tricolor" />
@@ -11,21 +8,14 @@ Software Engineering Student · Software Developer · Full-Stack in Progress
 
 I'm a Software Engineering student focused on building complete software solutions, from application logic and data structures to databases, APIs and web interfaces.
 
-My strongest foundations are **Java, Python and SQL**, with hands-on experience building applications using **MySQL, PostgreSQL, MongoDB, Git/GitHub, Java Swing and CustomTkinter**.
-
-Currently, I'm expanding my skills toward **Full-Stack and Backend Development**, learning technologies such as **JavaScript, Node.js, Spring Boot, React, Docker, AWS and Linux**.
-
 I enjoy turning ideas into functional applications and continuously improving the architecture, usability and technical quality of my projects.
 
-![CalixtoIsaac's Stats](https://github-readme-stats.vercel.app/api?username=CalixtoIsaac&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-![CalixtoIsaac's Streak](https://github-readme-streak-stats.herokuapp.com/?user=CalixtoIsaac&theme=vue-dark&hide_border=true)
-
 ---
-## 🛠️ Languages & Tools
+<H1 align="center">
+  Languages & Tools
+</H1>
 
-### 💻 Programming Languages
-
-<p align="left">
+<p align="center">
   <a href="https://www.java.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
   </a>
@@ -43,14 +33,6 @@ I enjoy turning ideas into functional applications and continuously improving th
   </a>
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
-  </a>
-</p>
-
-![CalixtoIsaac's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CalixtoIsaac&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
-
-### 🗄️ Databases
-
-<p align="left">
   <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="40" height="40"/>
   </a>
@@ -59,12 +41,6 @@ I enjoy turning ideas into functional applications and continuously improving th
   </a>
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/>
-  </a>
-</p>
-
-### ⚙️ Tools & Technologies
-
-<p align="left">
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
   </a>
@@ -76,11 +52,11 @@ I enjoy turning ideas into functional applications and continuously improving th
   </a>
 </p>
 
----
+<H1 align="center">
+  Currently Learning
+</H1>
 
-## 📚 Currently Learning
-
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" alt="Spring Boot" width="40" height="40"/>
