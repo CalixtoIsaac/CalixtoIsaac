@@ -1,6 +1,7 @@
-# Hi, I'm Calixto Isaac 👋
+<div align="center"> <h1>Hi, I'm Calixto Isaac</h1>
+</div>
 
-### Software Engineering Student · Software Developer · Full-Stack in Progress
+Software Engineering Student · Software Developer · Full-Stack in Progress
 
 I'm a Software Engineering student focused on building complete software solutions, from application logic and data structures to databases, APIs and web interfaces.
 
