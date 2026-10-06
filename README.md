@@ -10,8 +10,8 @@ Currently, I'm expanding my skills toward **Full-Stack and Backend Development**
 
 I enjoy turning ideas into functional applications and continuously improving the architecture, usability and technical quality of my projects.
 
+![CalixtoIsaac's Stats](https://github-readme-stats.vercel.app/api?username=CalixtoIsaac&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
 ![CalixtoIsaac's Streak](https://github-readme-streak-stats.herokuapp.com/?user=CalixtoIsaac&theme=vue-dark&hide_border=true)
-
 
 ---
 ## 🛠️ Languages & Tools
