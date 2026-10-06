@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="235"
+     viewBox="0 0 900 235" role="img" aria-label="CALIXTO {ISAAC}">
+  <title>CALIXTO {ISAAC}</title>
+  <style>
+    /* Partículas: suben lentamente y se desvanecen */
+    .p { fill:#000; opacity:0; font-family:'Courier New',monospace;
+          animation: flotar linear infinite; }
+    @keyframes flotar {
+      0%   { transform: translateY(0);       opacity:0; }
+      15%  { opacity:.10; }
+      85%  { opacity:.10; }
+      100% { transform: translateY(-195px); opacity:0; }
+    }
+
+    /* Glitch: casi todo el ciclo quieto, un instante de temblor */
+    .glitch { animation: glitch 4s infinite 3.0s; }
+    @keyframes glitch {
+      0%, 90%, 100% { transform: translate(0,0); }
+      91% { transform: translate(-4px, 1px) skewX(-6deg); }
+      92% { transform: translate(5px,-2px); }
+      93% { transform: translate(-2px, 0) skewX(4deg); }
+      94% { transform: translate(3px, 1px); }
+      95% { transform: translate(0,0); }
+    }
+    /* Sombra desplazada que solo aparece durante el glitch */
+    .ghost { opacity:0; animation: ghost 4s infinite 3.0s; }
+    @keyframes ghost {
+      0%, 90%, 96%, 100% { opacity:0; transform: translate(0,0); }
+      91% { opacity:.35; transform: translate(7px,0); }
+      93% { opacity:.25; transform: translate(-6px,0); }
+      95% { opacity:.3;  transform: translate(4px,0); }
+    }
+
+    /* Cursor parpadeante */
+    .cursor { animation: parpadeo 1s steps(1) infinite; }
+    @keyframes parpadeo { 50% { opacity:0; } }
+
+    /* Barra de escáner (monitor viejo) */
+    .scan { animation: escanear 5s linear infinite; }
+    @keyframes escanear {
+      0%   { transform: translateY(0); }
+      100% { transform: translateY(175px); }
+    }
+
+    /* Brillo que recorre el borde */
+    .run { animation: recorrer 6s linear infinite; }
+    @keyframes recorrer { to { stroke-dashoffset: -1000; } }
+  </style>
+
+  <defs>
+    <!-- Líneas horizontales de monitor CRT -->
+    <pattern id="crt" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1.5" fill="#000" opacity=".06"/>
+    </pattern>
+    <!-- Degradado de la barra de escáner -->
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Todo lo de adentro se recorta al marco redondeado -->
+    <clipPath id="marco">
+      <rect x="30" y="30" width="840" height="175" rx="28"/>
+    </clipPath>
+    <!-- Recorte que crece letra por letra (máquina de escribir) -->
+    <clipPath id="escribir">
+      <rect x="110.0" y="13.5" width="0" height="208">
+        <animate attributeName="width" values="0.0;44.0;88.0;132.0;176.0;220.0;264.0;308.0;352.0;396.0;440.0;484.0;528.0;572.0;616.0;660.0" keyTimes="0.0000;0.0667;0.1333;0.2000;0.2667;0.3333;0.4000;0.4667;0.5333;0.6000;0.6667;0.7333;0.8000;0.8667;0.9333;1.0000"
+                 dur="2.4s" begin="0.6s" calcMode="discrete" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="900" height="235" fill="#fff"/>
+
+  <g clip-path="url(#marco)">
+    <!-- Partículas de código -->
+    <text class="p" x="309.1" y="215" font-size="14" style="animation-duration:11.8s;animation-delay:-0.6s">[]</text>
+    <text class="p" x="125.3" y="215" font-size="12" style="animation-duration:15.4s;animation-delay:-3.3s">&lt;/&gt;</text>
+    <text class="p" x="396.9" y="215" font-size="13" style="animation-duration:10.7s;animation-delay:-5.9s">;</text>
+    <text class="p" x="711.5" y="215" font-size="13" style="animation-duration:15.6s;animation-delay:-9.9s">#</text>
+    <text class="p" x="808.2" y="215" font-size="18" style="animation-duration:9.3s;animation-delay:-2.1s">[]</text>
+    <text class="p" x="736.8" y="215" font-size="16" style="animation-duration:11.9s;animation-delay:-6.5s">#</text>
+    <text class="p" x="296.8" y="215" font-size="14" style="animation-duration:9.7s;animation-delay:-5.6s">0</text>
+    <text class="p" x="347.9" y="215" font-size="20" style="animation-duration:14.0s;animation-delay:-7.9s">#</text>
+    <text class="p" x="214.8" y="215" font-size="20" style="animation-duration:12.0s;animation-delay:-3.8s">#</text>
+    <text class="p" x="788.8" y="215" font-size="17" style="animation-duration:11.1s;animation-delay:-8.8s">0</text>
+    <text class="p" x="115.5" y="215" font-size="16" style="animation-duration:12.7s;animation-delay:-11.1s">//</text>
+    <text class="p" x="280.4" y="215" font-size="13" style="animation-duration:9.8s;animation-delay:-4.1s">()</text>
+    <text class="p" x="171.6" y="215" font-size="19" style="animation-duration:12.0s;animation-delay:-11.5s">&lt;/&gt;</text>
+    <text class="p" x="661.7" y="215" font-size="17" style="animation-duration:11.4s;animation-delay:-4.0s">//</text>
+    <text class="p" x="513.9" y="215" font-size="19" style="animation-duration:9.5s;animation-delay:-0.9s">1</text>
+    <text class="p" x="429.3" y="215" font-size="13" style="animation-duration:9.4s;animation-delay:-6.6s">#</text>
+    <text class="p" x="844.5" y="215" font-size="19" style="animation-duration:11.0s;animation-delay:-4.2s">()</text>
+    <text class="p" x="68.1" y="215" font-size="19" style="animation-duration:11.5s;animation-delay:-7.0s">//</text>
+
+    <!-- Texto con máquina de escribir + glitch -->
+    <g clip-path="url(#escribir)">
+      <g class="ghost"><text x="120.0" y="117.5" textLength="660" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" font-family="Anton, Impact, 'Oswald', 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="104" font-weight="900" fill="#8a8a8a">CALIXTO {ISAAC}</text></g>
+      <g class="glitch"><text x="120.0" y="117.5" textLength="660" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" font-family="Anton, Impact, 'Oswald', 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="104" font-weight="900" fill="#2b2b2b">CALIXTO {ISAAC}</text></g>
+    </g>
+
+    <!-- Cursor que avanza con cada letra -->
+    <rect class="cursor" x="126.0" y="80.06" width="6" height="74.9" fill="#2b2b2b">
+      <animate attributeName="x" values="126.0;170.0;214.0;258.0;302.0;346.0;390.0;434.0;478.0;522.0;566.0;610.0;654.0;698.0;742.0;786.0" keyTimes="0.0000;0.0667;0.1333;0.2000;0.2667;0.3333;0.4000;0.4667;0.5333;0.6000;0.6667;0.7333;0.8000;0.8667;0.9333;1.0000"
+               dur="2.4s" begin="0.6s" calcMode="discrete" fill="freeze"/>
+    </rect>
+
+    <!-- Efecto monitor viejo -->
+    <rect x="30" y="30" width="840" height="175" fill="url(#crt)"/>
+    <rect class="scan" x="30" y="-10" width="840" height="40" fill="url(#scanGrad)"/>
+  </g>
+
+  <!-- Marco -->
+  <rect x="30" y="30" width="840" height="175" rx="28"
+        fill="none" stroke="#000" stroke-width="4"/>
+  <!-- Brillo que recorre el borde (dos tramos opuestos) -->
+  <rect class="run" x="30" y="30" width="840" height="175" rx="28" pathLength="1000"
+        fill="none" stroke="#000" stroke-width="9" stroke-linecap="round"
+        stroke-dasharray="90 410"/>
+</svg>
