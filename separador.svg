@@ -22,6 +22,9 @@
     <clipPath id="linea"><rect x="34" y="0" width="1120" height="40"/></clipPath>
   </defs>
 
+  <!-- Fondo blanco (para que se vea igual en el modo oscuro de GitHub) -->
+  <rect width="1200" height="40" rx="8" fill="#ffffff"/>
+
   <!-- Llaves en los extremos -->
   <text x="6" y="20.0" dominant-baseline="central" font-family="'JetBrains Mono','Courier New',monospace" font-size="26"
         font-weight="700" fill="#2b2b2b">{</text>
