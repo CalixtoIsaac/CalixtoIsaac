@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="40"
+     viewBox="0 0 1200 40" role="img" aria-label="separador">
+  <style>
+    .s { fill:#2b2b2b; opacity:0; font: 11px 'JetBrains Mono','Courier New',monospace; text-anchor:middle;
+          animation: parpadea 4s ease-in-out infinite; }
+    @keyframes parpadea { 0%,100% { opacity:0; } 50% { opacity:.25; } }
+    .sweep { animation: barrer 3.5s cubic-bezier(.6,0,.4,1) infinite; }
+    @keyframes barrer {
+      0%   { transform: translateX(-260px); }
+      100% { transform: translateX(1180px); }
+    }
+    .cursor { animation: cursor 1s steps(1) infinite; }
+    @keyframes cursor { 50% { opacity:0; } }
+  </style>
+  <defs>
+    <!-- Estela: se desvanece hacia la izquierda -->
+    <linearGradient id="estela" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2b2b2b" stop-opacity="0"/>
+      <stop offset=".8" stop-color="#2b2b2b" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2b2b2b" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="linea"><rect x="34" y="0" width="1120" height="40"/></clipPath>
+  </defs>
+
+  <!-- Fondo blanco (para que se vea igual en el modo oscuro de GitHub) -->
+  <rect width="1200" height="40" rx="8" fill="#ffffff"/>
+
+  <!-- Llaves en los extremos -->
+  <text x="6" y="20.0" dominant-baseline="central" font-family="'JetBrains Mono','Courier New',monospace" font-size="26"
+        font-weight="700" fill="#2b2b2b">{</text>
+  <text x="1160" y="20.0" dominant-baseline="central" font-family="'JetBrains Mono','Courier New',monospace" font-size="26"
+        font-weight="700" fill="#2b2b2b">}</text>
+  <rect class="cursor" x="1182" y="9.0" width="4" height="22" fill="#2b2b2b"/>
+
+  <!-- Línea base tenue -->
+  <line x1="34" y1="20.0" x2="1154" y2="20.0" stroke="#2b2b2b" stroke-opacity=".18"
+        stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- Símbolos de código -->
+  <text class="s" x="77" y="13.0" style="animation-delay:1.5s">{}</text>
+  <text class="s" x="207" y="13.0" style="animation-delay:2.4s">&lt;/&gt;</text>
+  <text class="s" x="334" y="13.0" style="animation-delay:1.0s">=&gt;</text>
+  <text class="s" x="413" y="13.0" style="animation-delay:2.2s">=&gt;</text>
+  <text class="s" x="540" y="13.0" style="animation-delay:2.6s">//</text>
+  <text class="s" x="633" y="13.0" style="animation-delay:3.5s">{}</text>
+  <text class="s" x="763" y="13.0" style="animation-delay:2.7s">;</text>
+  <text class="s" x="852" y="13.0" style="animation-delay:1.2s">;</text>
+  <text class="s" x="963" y="13.0" style="animation-delay:1.9s">1</text>
+  <text class="s" x="1109" y="13.0" style="animation-delay:2.9s">//</text>
+
+  <!-- Tramo que recorre la línea -->
+  <g clip-path="url(#linea)">
+    <g class="sweep">
+      <rect x="34" y="18.0" width="200" height="4" rx="2" fill="url(#estela)"/>
+      <rect x="230" y="16.0" width="8" height="8" rx="1" fill="#2b2b2b"/>
+    </g>
+  </g>
+</svg>
