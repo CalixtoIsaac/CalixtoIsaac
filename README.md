@@ -34,52 +34,6 @@ I enjoy turning ideas into functional applications and continuously improving th
 
 ---
 <H1 align="center">
-  Areas of Interest
-</H1>
-
-* Backend Development
-* Full-Stack Development
-* Database Design
-* Software Architecture
-* Object-Oriented Programming
-* Data Structures & Algorithms
-* REST APIs
-* Distributed Applications
-* Data Analysis
-* Cloud Technologies
-
----
-<H1 align="center">
-  🎯 Current Focus 🎯
-</H1>
-I'm currently focused on moving from local and desktop applications toward more complete **web and cloud-based systems**.
-
-My current learning path includes:
-
-```text
-Java / Python
-      ↓
-Data Structures & Algorithms
-      ↓
-SQL & Database Design
-      ↓
-Backend Development
-      ↓
-REST APIs
-      ↓
-Spring Boot / Node.js
-      ↓
-React
-      ↓
-Docker & Linux
-      ↓
-Cloud / AWS
-```
-
-The goal is to progressively build applications with stronger architecture, scalability, security and deployment practices.
-
----
-<H1 align="center">
   Featured Projects
 </H1>
 
@@ -162,17 +116,69 @@ A complete management system developed around object-oriented programming and da
 🔗 **[View Repository](https://github.com/CalixtoIsaac/ProyectoBiblioteca)**
 
 ---
+<H1 align="center">
+  Areas of Interest
+</H1>
 
-## 📫 Let's Connect
+* Backend Development
+* Full-Stack Development
+* Database Design
+* Software Architecture
+* Object-Oriented Programming
+* Data Structures & Algorithms
+* REST APIs
+* Distributed Applications
+* Data Analysis
+* Cloud Technologies
+
+---
+<H1 align="center">
+  🎯 Current Focus 🎯
+</H1>
+I'm currently focused on moving from local and desktop applications toward more complete **web and cloud-based systems**.
+
+My current learning path includes:
+
+```text
+Java / Python
+      ↓
+Data Structures & Algorithms
+      ↓
+SQL & Database Design
+      ↓
+Backend Development
+      ↓
+REST APIs
+      ↓
+Spring Boot / Node.js
+      ↓
+React
+      ↓
+Docker & Linux
+      ↓
+Cloud / AWS
+```
+
+The goal is to progressively build applications with stronger architecture, scalability, security and deployment practices.
+
+<H1 align="center">
+  📫 Let's Connect
+</H1>
 
 I'm always interested in learning, building new projects and connecting with other developers.
 
-**LinkedIn:** [linkedin.com/in/calixto-isaac](https://www.linkedin.com/in/calixto-isaac)
+<p align="center">
+  <a href="mailto:calixtoisaacgaleanamedrano@gmail.com" title="Email">
+    <img src="https://skillicons.dev/icons?i=gmail" height="48" alt="Gmail">
+  </a>
+  <a href="https://www.linkedin.com/in/calixto-isaac" title="LinkedIn">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="48" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/CalixtoIsaac" title="GitHub">
+    <img src="https://skillicons.dev/icons?i=github" height="48" alt="GitHub">
+  </a>
+</p>
 
-**Email:** [calixtoisaacgaleanamedrano@gmail.com](mailto:calixtoisaacgaleanamedrano@gmail.com)
-
-**GitHub:** [github.com/CalixtoIsaac](https://github.com/CalixtoIsaac)
-
----
-
-### 💻 If you can imagine it, you can program it.
+<H1 align="center">
+  💻 If you can imagine it, you can program it.
+</H1>
