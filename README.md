@@ -10,6 +10,12 @@ I'm a Software Engineering student focused on building complete software solutio
 
 I enjoy turning ideas into functional applications and continuously improving the architecture, usability and technical quality of my projects.
 
+<!-- INICIO DEL SEPARADOR ANIMADO -->
+<p align="center">
+  <img src="separador.svg" width="100%">
+</p>
+<!-- FINAL DEL SEPARADOR ANIMADO -->
+
 ---
 <H1 align="center">
   Languages & Tools
