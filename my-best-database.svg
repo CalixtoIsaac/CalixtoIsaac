@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0b2540"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" rx="18" fill="url(#bg)"/>
+  <circle cx="700" cy="60" r="140" fill="#2f81f7" opacity=".08"/>
+  <!-- window -->
+  <rect x="420" y="60" width="340" height="300" rx="12" fill="#161b22" stroke="#30363d"/>
+  <circle cx="440" cy="80" r="5" fill="#ff5f57"/><circle cx="456" cy="80" r="5" fill="#febc2e"/><circle cx="472" cy="80" r="5" fill="#28c840"/>
+  <text x="440" y="118" font-family="Consolas,monospace" font-size="13" fill="#ff7b72">SELECT<tspan fill="#c9d1d9"> c.name, COUNT(*)</tspan></text>
+  <text x="440" y="138" font-family="Consolas,monospace" font-size="13" fill="#ff7b72">FROM<tspan fill="#79c0ff"> customers</tspan><tspan fill="#c9d1d9"> c</tspan></text>
+  <text x="440" y="158" font-family="Consolas,monospace" font-size="13" fill="#ff7b72">JOIN<tspan fill="#79c0ff"> orders</tspan><tspan fill="#c9d1d9"> o ON ...</tspan></text>
+  <!-- ER diagram -->
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#c9d1d9">
+    <rect x="445" y="190" width="110" height="80" rx="6" fill="#0d1117" stroke="#2f81f7"/>
+    <rect x="445" y="190" width="110" height="20" rx="6" fill="#2f81f7"/>
+    <text x="455" y="204" fill="#fff" font-weight="700">customers</text>
+    <text x="455" y="228">🔑 id</text><text x="455" y="246">name</text><text x="455" y="262">email</text>
+    <rect x="625" y="230" width="110" height="80" rx="6" fill="#0d1117" stroke="#3fb950"/>
+    <rect x="625" y="230" width="110" height="20" rx="6" fill="#3fb950"/>
+    <text x="635" y="244" fill="#fff" font-weight="700">orders</text>
+    <text x="635" y="268">🔑 id</text><text x="635" y="286">customer_id</text><text x="635" y="302">total</text>
+    <path d="M555 230 H590 V270 H625" fill="none" stroke="#8b949e" stroke-dasharray="4 3"/>
+  </g>
+  <!-- text -->
+  <text x="50" y="120" font-size="54">🗄️</text>
+  <text x="50" y="180" font-family="Segoe UI,Arial,sans-serif" font-size="36" font-weight="800" fill="#f0f6fc">My Best DataBase</text>
+  <text x="50" y="215" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#8b949e">Web-based MySQL management system</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">
+    <rect x="50" y="300" width="80" height="28" rx="14" fill="#2f81f7" opacity=".2"/><text x="90" y="319" text-anchor="middle" fill="#79c0ff">Node.js</text>
+    <rect x="140" y="300" width="80" height="28" rx="14" fill="#2f81f7" opacity=".2"/><text x="180" y="319" text-anchor="middle" fill="#79c0ff">Express</text>
+    <rect x="230" y="300" width="74" height="28" rx="14" fill="#2f81f7" opacity=".2"/><text x="267" y="319" text-anchor="middle" fill="#79c0ff">MySQL</text>
+  </g>
+</svg>

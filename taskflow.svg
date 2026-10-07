@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120d1f"/><stop offset="1" stop-color="#2a1747"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" rx="18" fill="url(#bg)"/>
+  <circle cx="660" cy="80" r="160" fill="#a371f7" opacity=".08"/>
+  <!-- BST -->
+  <g stroke="#a371f7" stroke-width="2">
+    <line x1="590" y1="95" x2="510" y2="165"/><line x1="590" y1="95" x2="670" y2="165"/>
+    <line x1="510" y1="165" x2="465" y2="235"/><line x1="510" y1="165" x2="555" y2="235"/>
+    <line x1="670" y1="165" x2="715" y2="235"/>
+  </g>
+  <g font-family="Consolas,monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">
+    <circle cx="590" cy="95" r="22" fill="#8957e5"/><text x="590" y="100">50</text>
+    <circle cx="510" cy="165" r="22" fill="#6e40c9"/><text x="510" y="170">30</text>
+    <circle cx="670" cy="165" r="22" fill="#6e40c9"/><text x="670" y="170">70</text>
+    <circle cx="465" cy="235" r="22" fill="#553098"/><text x="465" y="240">20</text>
+    <circle cx="555" cy="235" r="22" fill="#553098"/><text x="555" y="240">40</text>
+    <circle cx="715" cy="235" r="22" fill="#553098"/><text x="715" y="240">80</text>
+  </g>
+  <!-- queue -->
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#e2d5ff">
+    <rect x="450" y="300" width="64" height="40" rx="6" fill="#3d2466" stroke="#f85149"/><text x="482" y="324" text-anchor="middle">HIGH</text>
+    <rect x="524" y="300" width="64" height="40" rx="6" fill="#3d2466" stroke="#d29922"/><text x="556" y="324" text-anchor="middle">MED</text>
+    <rect x="598" y="300" width="64" height="40" rx="6" fill="#3d2466" stroke="#3fb950"/><text x="630" y="324" text-anchor="middle">LOW</text>
+    <text x="680" y="325" fill="#a371f7" font-size="20">→</text>
+  </g>
+  <text x="50" y="120" font-size="54">📋</text>
+  <text x="50" y="180" font-family="Segoe UI,Arial,sans-serif" font-size="36" font-weight="800" fill="#f3ecff">GestionTareasApp</text>
+  <text x="50" y="215" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#b3a4cf">Advanced task management system</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#d2a8ff">
+    <rect x="50" y="300" width="60" height="28" rx="14" fill="#a371f7" opacity=".2"/><text x="80" y="319" text-anchor="middle">Java</text>
+    <rect x="120" y="300" width="70" height="28" rx="14" fill="#a371f7" opacity=".2"/><text x="155" y="319" text-anchor="middle">Swing</text>
+    <rect x="200" y="300" width="130" height="28" rx="14" fill="#a371f7" opacity=".2"/><text x="265" y="319" text-anchor="middle">Data Structures</text>
+  </g>
+</svg>
