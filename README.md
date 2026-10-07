@@ -3,11 +3,8 @@
   <img src="./isaac_github.svg" width="100%" alt="Marco Tricolor" />
 </p>
 <!-- FINAL DEL ENCABEZADO -->
-<p align="center">
-  Software Engineering Student · Software Developer · Full-Stack in Progress
-</p>
 <H1 align="center">
-  ABOUT ME
+  Software Engineering Student · Software Developer · Full-Stack in Progress
 </H1>
 I'm a Software Engineering student focused on building complete software solutions, from application logic and data structures to databases, APIs and web interfaces.
 
