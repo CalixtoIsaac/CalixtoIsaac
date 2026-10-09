@@ -124,12 +124,21 @@ A complete management system developed around object-oriented programming and da
 * Full-Stack Development
 * Database Design
 * Software Architecture
-* Object-Oriented Programming
 * Data Structures & Algorithms
 * REST APIs
 * Distributed Applications
-* Data Analysis
 * Cloud Technologies
+
+---
+
+<H1 align="center">
+  code philosophy
+</H1>
+
+Clean Code
+Open Source
+Functional and Object-Oriented Programming
+Engineering and Resilience
 
 ---
 <H1 align="center">
