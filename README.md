@@ -135,10 +135,10 @@ A complete management system developed around object-oriented programming and da
   code philosophy
 </H1>
 
-Clean Code
-Open Source
-Functional and Object-Oriented Programming
-Engineering and Resilience
+* Clean Code
+* Open Source
+* Functional and Object-Oriented Programming
+* Engineering and Resilience
 
 ---
 <H1 align="center">
